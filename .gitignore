@@ -1,0 +1,13 @@
+.idea
+*.iws
+*.iml
+target/
+.history
+.cache
+.DS_Store
+lib_managed/
+src_managed/
+project/boot/
+*.log
+log/
+*.zip%
