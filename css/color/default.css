@@ -1,0 +1,131 @@
+/**
+@color-name: 默认配色
+@top-color: #F9F9F9
+@left-color: #333333
+ */
+
+/**
+top-color: 首页预览顶栏配色
+left-color: 首页预览左侧配色
+ */
+
+
+/*
+左侧side-bar背景色
+ */
+.bg-left {
+    background-color: #333;
+}
+
+/*
+站点顶栏logo
+ */
+.free-logo {
+    color: #fff;
+}
+
+/*
+站点信息
+ */
+.website-info {
+    color: #fff;
+    border-bottom: 1px solid #000;
+}
+
+/*
+左侧导航激活颜色
+ */
+.nav-list .nav-active {
+    background-color: #000;
+    color: white;
+}
+
+/**
+左侧导航两个字
+ */
+.nav-list ul li.nav-title {
+    color: #ccc;
+}
+
+/**
+左侧导航栏文字
+ */
+.nav-list ul a {
+    color: #ddd;
+}
+
+/*
+左侧导航选中颜色
+ */
+.nav-list ul a:hover:not(.nav-active) {
+    background-color: #000;
+    color: white;
+}
+
+/*
+左侧分类与页面
+ */
+.nav-list .child-nav-list {
+    background-color: #111;
+}
+
+/*
+左侧分类与页面激活
+ */
+.nav-list .child-nav-list a.child-active {
+    background-color: #555 !important;
+    color: white;
+}
+
+/*
+左侧分类与页面选中
+ */
+.nav-list .child-nav-list li a:hover {
+    background-color: #555 !important;
+    color: white;
+}
+
+
+/*
+左侧side-bar 下方联系站长
+ */
+#app-aside .user-footer {
+    background-color: #222;
+    color: white;
+}
+
+/*
+左侧side-bar 下方联系站长的a标签
+ */
+#app-aside .user-footer a {
+    color: white;
+}
+
+/*
+顶栏
+ */
+.bg-top {
+    background-color: #F9F9F9;
+}
+
+/*
+顶栏右侧文字
+ */
+.top-bar .top-list a {
+    color: #777777;
+}
+
+/*
+中部footer
+ */
+#app-footer {
+    background-color: #888888;
+    color: #fff;
+}
+
+/*
+中部footer 中的a标签
+ */
+#app-footer a {
+    color: #fff;
+}
